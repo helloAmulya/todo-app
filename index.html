@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>Todo List</h1>
+    </header>
+
+    <main>
+
+        <article>
+
+            <h2>Tasks</h2>
+            <p>A simple project for basics of html, css, js/ts.</p>
+
+            <section class="tasks">
+                <!-- demo tasks -->
+                <div class="todo-list">
+                    <span class="task-text">Task 1</span>
+                    <input type="text" class="task-input" value="Task 1">
+                    <div class="todo-actions">
+                        <input type="checkbox">
+                        <button class="btn-action" onclick="editTask(this)" title="Edit"><i
+                                class="fa fa-edit"></i></button>
+                        <button class="btn-action btn-delete" onclick="deleteTask(this)" title="Delete"><i
+                                class="fa fa-trash"></i></button>
+                    </div>
+                </div>
+                <div class="todo-list">
+                    <span class="task-text">Task 2</span>
+                    <input type="text" class="task-input" value="Task 2">
+                    <div class="todo-actions">
+                        <input type="checkbox">
+                        <button class="btn-action" onclick="editTask(this)" title="Edit"><i
+                                class="fa fa-edit"></i></button>
+                        <button class="btn-action btn-delete" onclick="deleteTask(this)" title="Delete"><i
+                                class="fa fa-trash"></i></button>
+                    </div>
+                </div>
+            </section>
+
+        </article>
+
+        <aside class="sidebar">
+            <h2>Actions</h2>
+            <button onclick="addTask()"><i class="fa fa-plus"></i> Add Task</button>
+        </aside>
+    </main>
+
+    <footer>
+        <p>@Copyright 2026 by <a href="https://github.com/helloAmulya" title="Visit Amulya's GitHub profile">Amulya</a>.
+            All rights Reserved.</p>
+    </footer>
+
+    <script src="tds.js"></script>
+
+</body>
+
+</html>

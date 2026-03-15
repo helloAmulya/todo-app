@@ -1,0 +1,11 @@
+{
+  "include": ["tds.ts"],
+  "compilerOptions": {
+    "module": "none",
+    "target": "es6",
+    "lib": ["es6", "dom"],
+    "strict": true,
+    "sourceMap": true,
+    "skipLibCheck": true
+  }
+}
