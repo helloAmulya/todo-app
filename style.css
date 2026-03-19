@@ -1,9 +1,20 @@
+html {
+    overflow-x: hidden;
+}
+
 body {
     background-color: rgba(0, 0, 0, 0.937);
     color: white;
     font-family: monospace;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
 .header {
@@ -17,6 +28,7 @@ main {
     flex-direction: row;
     gap: 100px;
     padding: 40px;
+    width: 100%;
 }
 
 article {
@@ -119,6 +131,7 @@ footer {
     color: white;
     margin-top: 20px;
 }
+
 footer a:hover {
     text-decoration: underline;
 }
@@ -208,6 +221,11 @@ input[type="checkbox"]:checked {
     .tasks {
         height: 45vh;
         min-height: 220px;
+    }
+
+    footer {
+        position: static;
+        margin-top: 24px;
     }
 }
 

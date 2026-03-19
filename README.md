@@ -7,20 +7,27 @@ It is a small project to practice core frontend skills like DOM updates, user in
 ## Quick Start
 
 1. Install dependencies:
-    `npm install`
+   `npm install`
 2. Compile TypeScript:
-    `npx tsc`
+   `npx tsc`
 3. Open `index.html` in your browser.
 
 ## Screenshots
 
 ### Main
+
 ![Main](assets/mainimage.png)
 
 ### Multiple Todos (Scroll)
+
 ![Scroll](assets/scroll.png)
 
 ### Extended Sidebar
+
 ![Extended Sidebar](assets/sidebarnew.png)
 
 To extend sidebar space, edit the sidebar height section in `style.css`.
+
+### Future updates
+
+> dynamic theme selection
