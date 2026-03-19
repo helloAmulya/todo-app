@@ -1,7 +1,7 @@
 {
   "include": ["tds.ts"],
   "compilerOptions": {
-    "module": "none",
+    "module": "commonjs",
     "target": "es6",
     "lib": ["es6", "dom"],
     "strict": true,
